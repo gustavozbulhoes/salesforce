@@ -29,7 +29,7 @@ export const EXPERIENCE_DATA={
             KEY:"KEY2",
             DURATION: "DURATION 2 IN STRING FORMAT",
             DESCRIPTION_POINTS: [
-                'DESCRIPTION1.2','DESCRIPTION1.2'
+                'DESCRIPTION2.1','DESCRIPTION2.2'
             ]
         }
     ]

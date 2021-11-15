@@ -39,8 +39,8 @@ export const CONTACT_ME={
     TITLE:"Contact me",
     ITEMS:[
         {
-            TEXT:"YOUREMAIL@gmail.com",
-            LINK:"mailto:YOUREMAIL@gmail.com",
+            TEXT:"gustavozbulhoes@gmail.com",
+            LINK:"mailto:gustavozbulhoes@gmail.com",
             LINK_TARGET:'_self',
             ICON:"utility:email",
             ICON_ALTERNATIVE_TEXT:"email!",

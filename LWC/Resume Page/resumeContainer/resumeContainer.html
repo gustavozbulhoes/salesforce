@@ -1,12 +1,16 @@
 <!-- 
 Created by: Gustavo Zanatta Bulhões
-Version: 1.0
 E-mail: gustavozbulhoes@gmail.com 
+
+*Version - Author | Date |  Description*
+V.1.0 - Gustavo Bulhoes | 14/11/2021 | Created
+V.1.1 - Gustavo Bulhoes | 15/11/2021 | Improve spacings for desktop/mobile and also the comments
 -->
 <template>
-  <!--Creates the left and right columns-->
+
+  <!--Creates the left and right columns for desktop and 1 column for mobile-->
   <div class="slds-grid slds-wrap">
-    <!--Left Side-->
+    <!--Left Side for desktop and first part for mobile -->
     <div class="slds-col slds-large-size_4-of-12 slds-medium-size_4-of-12 slds-size_1-of-1">
       <div class="blueLeftBackground">
         <!-- insert the image -->
@@ -17,11 +21,11 @@ E-mail: gustavozbulhoes@gmail.com
         <div class="leftContainer"><c-resume-contact-me details={RESUME_DATA.CONTACT_ME}></c-resume-contact-me></div>
         <div class="leftContainer"><c-resume-certification  details={RESUME_DATA.SALESFORCE_CERTIFICATIONS}></c-resume-certification></div>
         <div class="lastleftContainer"><c-resume-certification  details={RESUME_DATA.OTHER_CERTIFICATIONS}></c-resume-certification></div>
+        <br/>
       </div>
     </div>
-	
-      <!--Right Side-->
-    <div class="slds-col slds-large-size_8-of-12 slds-medium-size_8-of-12 slds-size_1-of-1">
+      <!--Right Side for desktop and second part for mobile-->
+    <div class="slds-col slds-large-size_8-of-12 slds-medium-size_8-of-12 slds-size_1-of-1 teste">
       <div class="rightContainer"><c-resume-header details={RESUME_DATA.USER_DETAILS}></c-resume-header></div>
       <div class="rightContainer"><c-resume-education details={RESUME_DATA.EDUCATION}></c-resume-education></div>
       <div class="rightContainer"><c-resume-skill-points details={RESUME_DATA.TECH_SKILLS}></c-resume-skill-points></div>
@@ -29,5 +33,8 @@ E-mail: gustavozbulhoes@gmail.com
     </div>
   </div>
 
-  <!-- Your Footer Here -->
- </template>
+  <!-- footer container -->
+  <div class="slds-m-top_x-small">
+    <c-resume-footer-container></c-resume-footer-container>
+  </div>
+</template>

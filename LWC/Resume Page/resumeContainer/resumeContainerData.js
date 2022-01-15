@@ -1,12 +1,11 @@
 import RESUMEICONS from '@salesforce/resourceUrl/RESUMEICONS'
-
-//gustavo is the static resource name with the picture
 import gustavo from '@salesforce/resourceUrl/gustavo'
+
 export const PROFILE_IMAGE = gustavo
 
 export const USER_DETAILS={
     NAME:'Gustavo Zanatta Bulhões',
-    ROLE:'Salesforce Developer',
+    ROLE:'SALESFORCE ENGINEER',
 }
 
 export const EXPERIENCE_DATA={
@@ -14,22 +13,40 @@ export const EXPERIENCE_DATA={
     ICON: "standard:work_contract",
     EXPERIENCES: [
         {
-            ROLE: "ROLE1",
-            COMPANY_NAME: "COMPANY1",
-            KEY:"KEY1",
-            DURATION: "DURATION 1 IN STRING FORMAT",
+            ROLE: "Salesforce Engineer",
+            COMPANY_NAME: "B LAB",
+            KEY:"BLAB",
+            DURATION: "01/2022 - Currently",
+        },
+        {
+            ROLE: "Salesforce Developer",
+            COMPANY_NAME: "Sysmap Solutions",
+            KEY:"Sysmap",
+            DURATION: "09/2021 - 12/2021",
             DESCRIPTION_POINTS: [
-                'DESCRIPTION1.1','DESCRIPTION1.2'
+                'Salesforce Developer at "Operadora Claro" project',
             ]
         },
-
         {
-            ROLE: "ROLE2",
-            COMPANY_NAME: "COMPANY2",
-            KEY:"KEY2",
-            DURATION: "DURATION 2 IN STRING FORMAT",
+            ROLE: "Salesforce Consultant",
+            COMPANY_NAME: "Harpia Cloud",
+            KEY:"Harpia",
+            DURATION: "03/2019 - 09/2021",
             DESCRIPTION_POINTS: [
-                'DESCRIPTION2.1','DESCRIPTION2.2'
+                'Salesforce Consultant at "Engie Brasil" project (06 months)',
+                'Salesforce Consultant at "XP Investimentos" project (02 years)'
+            ]
+        },
+        {
+            ROLE: "Intern",
+            COMPANY_NAME: "Amcor",
+            KEY:"Amcor",
+            DURATION: "05/2018 - 03/2019",
+            DESCRIPTION_POINTS: [
+                "Break analysis using 8Ds methodology and PDCA cycle",
+                "Corrective, Preventive and Planned maintenance planning",
+                "Factory structural maintenance planning",
+                "Continuous Improvement"
             ]
         }
     ]
@@ -331,8 +348,8 @@ export const TECH_SKILLS = {
              {
                 LABEL:"Others ...",
                 KEY:"Etc"
-             }     
+            }     
             ]
-        }
+            }
     ]
 }
